@@ -1,0 +1,124 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: chocolate;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Navigation */
+.con1 {
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.con1 ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+.con1 ul a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.con1 ul a:hover {
+    color: white;
+    background-color: chocolate;
+}
+
+/* Flavour Section */
+.flavour {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px;
+    text-align: center;
+}
+
+/* Card */
+.card {
+    width: 220px;
+    background-color: bisque;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card h2 {
+    margin: 10px 0;
+    text-decoration: underline;
+}
+
+.card p {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.card span {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: chocolate;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* Button */
+button {
+    margin-top: 10px;
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: chocolate;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #8b4513;
+}
+
+/* Thank You Page */
+.thank {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.thank a {
+    text-decoration: none;
+    background-color: bisque;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.thank a:hover {
+    background-color: white;
+}
